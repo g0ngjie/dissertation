@@ -66,7 +66,7 @@ export default {
     align-items: center;
     justify-content: center;
     width: 50px;
-    height: 35px;
+    height: 25px;
     box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.24);
     border: 1px #73d1d3 solid;
     background: linear-gradient(
