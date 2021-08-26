@@ -1,0 +1,68 @@
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+    Microsoft YaHei, Arial, sans-serif;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+* {
+  font-size: 14px;
+  color: #222222;
+  font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+input[type="number"] {
+  appearance: textfield;
+  -ms-progress-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+
+//论文规划表弹窗样式
+.paper-dialog ::v-deep.el-dialog {
+  border-radius: 10px;
+}
